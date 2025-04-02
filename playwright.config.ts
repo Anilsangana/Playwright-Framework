@@ -1,7 +1,7 @@
 import type { PlaywrightTestConfig } from "@playwright/test";
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/login.test.ts"],
+  testMatch: ["tests/windows.test.ts"],
   use: {
     headless: false,
     screenshot: "only-on-failure",
